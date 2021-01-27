@@ -1,4 +1,4 @@
-@media screen and (max-width: 700px){
+@media screen and (max-width: 650px){
     header .container{
         display: flex;
         flex-direction: column;
@@ -11,10 +11,31 @@
         height: 50px;
     }
 
+    .box-filme{
+        height: 400px;
+    }
+
 }
 
 @media screen and (min-width: 1000px){
     .descricao{
         width: 50%;
+    }
+}
+
+@media screen and (max-width: 440px){
+    header nav a{
+        font-size: 12px;
+    }
+
+    .filme-principal .titulo{
+        font-size: 25px;
+    }
+    .filme-principal .descricao{
+        font-size: 14px;
+    }
+
+    .box-filme{
+        height: 200px;
     }
 }
