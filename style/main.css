@@ -117,26 +117,23 @@ header nav a:last-child{
     display: block;
     border-radius: 10px;
     
+    
 }
 
-.box-filme:hover{
-    border-radius: 30px;
-}
+
 
 .carrossel-filmes{
     margin-top: 60px;
 }
 
 .item{
-    transition: .1s ease all;
+    transition: .3s ease all;
 }
 
 
 .item:hover{
-    border: 3px solid #fff;
     
-    border-radius: 30px;
-    
+    transform: scale(1.04);
 }
 
 .sobre{
